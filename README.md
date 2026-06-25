@@ -76,13 +76,15 @@ public class SonPhamVan {
 - Learning more about distributed systems, observability, and deployment pipelines.
 - Contributing more consistently to open-source and portfolio projects.
 
-## Featured Project Areas
+## Featured Projects
 
-| Area | What I Build | Focus |
-| --- | --- | --- |
-| Learning Management Systems | Courses, lessons, users, roles, progress tracking | Domain modeling, authentication, maintainable APIs |
-| E-commerce Services | Products, carts, orders, payments, inventory flows | Transaction safety, database design, business rules |
-| Backend Foundations | Reusable service templates and API patterns | Clean structure, validation, error handling |
+<!-- FEATURED-PROJECTS:START -->
+| Repository | Description | Tech | Stats | Updated |
+| --- | --- | --- | --- | --- |
+| [core-lms-fe](https://github.com/barkdock/core-lms-fe) | No description yet. | JavaScript | 0 stars / 0 forks | Jun 25, 2026 |
+| [ai-service-rmb](https://github.com/barkdock/ai-service-rmb) | No description yet. | Python | 0 stars / 0 forks | Jun 25, 2026 |
+| [core-lms](https://github.com/barkdock/core-lms) | No description yet. | Java | 0 stars / 0 forks | Jun 25, 2026 |
+<!-- FEATURED-PROJECTS:END -->
 
 ## GitHub Overview
 
