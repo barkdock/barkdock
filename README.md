@@ -16,8 +16,8 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=barkdock&label=Profile%20views&color=2563eb&style=flat" alt="Profile views" />
-  <img src="https://img.shields.io/github/followers/barkdock?label=Followers&style=flat&color=14b8a6" alt="GitHub followers" />
-  <img src="https://img.shields.io/github/stars/barkdock?affiliations=OWNER&style=flat&color=f59e0b" alt="GitHub stars" />
+  <img src="https://img.shields.io/github/followers/barkdock?label=Followers&style=flat&color=14b8a6&cacheSeconds=3600" alt="GitHub followers" />
+  <img src="https://img.shields.io/github/stars/barkdock?affiliations=OWNER&style=flat&color=f59e0b&cacheSeconds=3600" alt="GitHub stars" />
 </p>
 
 ## About Me
