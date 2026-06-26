@@ -81,6 +81,7 @@ public class SonPhamVan {
 <!-- FEATURED-PROJECTS:START -->
 | Repository | Description | Tech | Stats | Updated |
 | --- | --- | --- | --- | --- |
+| [mini-chat](https://github.com/barkdock/mini-chat) | No description yet. | Java | 0 stars / 0 forks | Jun 26, 2026 |
 | [core-lms-fe](https://github.com/barkdock/core-lms-fe) | No description yet. | JavaScript | 0 stars / 0 forks | Jun 25, 2026 |
 | [ai-service-rmb](https://github.com/barkdock/ai-service-rmb) | No description yet. | Python | 0 stars / 0 forks | Jun 25, 2026 |
 | [core-lms](https://github.com/barkdock/core-lms) | No description yet. | Java | 0 stars / 0 forks | Jun 25, 2026 |
