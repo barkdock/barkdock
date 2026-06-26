@@ -31,11 +31,22 @@ const featuredRepos = repos
   .sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at))
   .slice(0, 6);
 
-const escapeCell = (value = "") =>
+const escapeHtml = (value = "") =>
   String(value)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;")
     .replace(/\r?\n/g, " ")
-    .replace(/\|/g, "\\|")
     .trim();
+
+const badgeUrl = (label, message, color) => {
+  const safeLabel = encodeURIComponent(label);
+  const safeMessage = encodeURIComponent(String(message || "unknown"));
+
+  return `https://img.shields.io/badge/${safeLabel}-${safeMessage}-${color}?style=flat-square`;
+};
 
 const formatDate = (value) =>
   new Intl.DateTimeFormat("en", {
@@ -45,21 +56,42 @@ const formatDate = (value) =>
     timeZone: "UTC",
   }).format(new Date(value));
 
-const renderRepo = (repo) => {
-  const description = repo.description || "No description yet.";
+const renderRepoCard = (repo) => {
+  const description = repo.description || "Active project in progress.";
   const language = repo.language || "Mixed";
-  const stars = repo.stargazers_count;
-  const forks = repo.forks_count;
+  const stars = `${repo.stargazers_count} stars`;
+  const forks = `${repo.forks_count} forks`;
+  const updated = formatDate(repo.updated_at);
 
-  return `| [${escapeCell(repo.name)}](${repo.html_url}) | ${escapeCell(description)} | ${escapeCell(language)} | ${stars} stars / ${forks} forks | ${formatDate(repo.updated_at)} |`;
+  return [
+    '<td width="50%" valign="top">',
+    `  <h3><a href="${escapeHtml(repo.html_url)}">${escapeHtml(repo.name)}</a></h3>`,
+    `  <p>${escapeHtml(description)}</p>`,
+    "  <p>",
+    `    <img src="${badgeUrl("Tech", language, "2563eb")}" alt="${escapeHtml(language)}" />`,
+    `    <img src="${badgeUrl("Stars", stars, "f59e0b")}" alt="${escapeHtml(stars)}" />`,
+    `    <img src="${badgeUrl("Forks", forks, "14b8a6")}" alt="${escapeHtml(forks)}" />`,
+    `    <img src="${badgeUrl("Updated", updated, "64748b")}" alt="Updated ${escapeHtml(updated)}" />`,
+    "  </p>",
+    "</td>",
+  ].join("\n");
+};
+
+const renderRepoGrid = (repos) => {
+  const rows = [];
+
+  for (let index = 0; index < repos.length; index += 2) {
+    const first = renderRepoCard(repos[index]);
+    const second = repos[index + 1] ? renderRepoCard(repos[index + 1]) : '<td width="50%" valign="top"></td>';
+
+    rows.push(["<tr>", first, second, "</tr>"].join("\n"));
+  }
+
+  return ["<table>", ...rows, "</table>"].join("\n");
 };
 
 const content = featuredRepos.length
-  ? [
-      "| Repository | Description | Tech | Stats | Updated |",
-      "| --- | --- | --- | --- | --- |",
-      ...featuredRepos.map(renderRepo),
-    ].join("\n")
+  ? renderRepoGrid(featuredRepos)
   : "_No public repositories found yet._";
 
 const readme = await readFile(readmePath, "utf8");

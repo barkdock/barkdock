@@ -79,12 +79,52 @@ public class SonPhamVan {
 ## Featured Projects
 
 <!-- FEATURED-PROJECTS:START -->
-| Repository | Description | Tech | Stats | Updated |
-| --- | --- | --- | --- | --- |
-| [mini-chat](https://github.com/barkdock/mini-chat) | No description yet. | Java | 0 stars / 0 forks | Jun 26, 2026 |
-| [core-lms-fe](https://github.com/barkdock/core-lms-fe) | No description yet. | JavaScript | 0 stars / 0 forks | Jun 25, 2026 |
-| [ai-service-rmb](https://github.com/barkdock/ai-service-rmb) | No description yet. | Python | 0 stars / 0 forks | Jun 25, 2026 |
-| [core-lms](https://github.com/barkdock/core-lms) | No description yet. | Java | 0 stars / 0 forks | Jun 25, 2026 |
+<table>
+<tr>
+<td width="50%" valign="top">
+  <h3><a href="https://github.com/barkdock/mini-chat">mini-chat</a></h3>
+  <p>Active project in progress.</p>
+  <p>
+    <img src="https://img.shields.io/badge/Tech-Java-2563eb?style=flat-square" alt="Java" />
+    <img src="https://img.shields.io/badge/Stars-0%20stars-f59e0b?style=flat-square" alt="0 stars" />
+    <img src="https://img.shields.io/badge/Forks-0%20forks-14b8a6?style=flat-square" alt="0 forks" />
+    <img src="https://img.shields.io/badge/Updated-Jun%2026%2C%202026-64748b?style=flat-square" alt="Updated Jun 26, 2026" />
+  </p>
+</td>
+<td width="50%" valign="top">
+  <h3><a href="https://github.com/barkdock/core-lms-fe">core-lms-fe</a></h3>
+  <p>Active project in progress.</p>
+  <p>
+    <img src="https://img.shields.io/badge/Tech-JavaScript-2563eb?style=flat-square" alt="JavaScript" />
+    <img src="https://img.shields.io/badge/Stars-0%20stars-f59e0b?style=flat-square" alt="0 stars" />
+    <img src="https://img.shields.io/badge/Forks-0%20forks-14b8a6?style=flat-square" alt="0 forks" />
+    <img src="https://img.shields.io/badge/Updated-Jun%2025%2C%202026-64748b?style=flat-square" alt="Updated Jun 25, 2026" />
+  </p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+  <h3><a href="https://github.com/barkdock/ai-service-rmb">ai-service-rmb</a></h3>
+  <p>Active project in progress.</p>
+  <p>
+    <img src="https://img.shields.io/badge/Tech-Python-2563eb?style=flat-square" alt="Python" />
+    <img src="https://img.shields.io/badge/Stars-0%20stars-f59e0b?style=flat-square" alt="0 stars" />
+    <img src="https://img.shields.io/badge/Forks-0%20forks-14b8a6?style=flat-square" alt="0 forks" />
+    <img src="https://img.shields.io/badge/Updated-Jun%2025%2C%202026-64748b?style=flat-square" alt="Updated Jun 25, 2026" />
+  </p>
+</td>
+<td width="50%" valign="top">
+  <h3><a href="https://github.com/barkdock/core-lms">core-lms</a></h3>
+  <p>Active project in progress.</p>
+  <p>
+    <img src="https://img.shields.io/badge/Tech-Java-2563eb?style=flat-square" alt="Java" />
+    <img src="https://img.shields.io/badge/Stars-0%20stars-f59e0b?style=flat-square" alt="0 stars" />
+    <img src="https://img.shields.io/badge/Forks-0%20forks-14b8a6?style=flat-square" alt="0 forks" />
+    <img src="https://img.shields.io/badge/Updated-Jun%2025%2C%202026-64748b?style=flat-square" alt="Updated Jun 25, 2026" />
+  </p>
+</td>
+</tr>
+</table>
 <!-- FEATURED-PROJECTS:END -->
 
 ## GitHub Overview
