@@ -20,53 +20,42 @@
   <img src="https://img.shields.io/github/stars/barkdock?affiliations=OWNER&style=flat&color=f59e0b" alt="GitHub stars" />
 </p>
 
-<h2 align="center">Building reliable backend systems with Java and Spring Boot</h2>
-
-<p align="center">
-  I focus on clean architecture, secure REST APIs, database design, and production-ready services.
-  My goal is to turn practical product ideas into stable backend systems that are simple to maintain and easy to extend.
-</p>
-
----
-
 ## About Me
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=720&lines=Java+Backend+Developer;Spring+Boot+%7C+REST+APIs+%7C+Clean+Architecture;Building+reliable+systems+with+clear+code" alt="Typing introduction" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=760&lines=Clean+APIs.+Reliable+services.+Maintainable+systems.;Turning+product+ideas+into+production-ready+backends." alt="Typing introduction" />
 </div>
 
 <table>
   <tr>
-    <td width="55%" valign="top">
+    <td width="60%" valign="top">
       <h3>Profile</h3>
       <p>
-        Backend-oriented developer focused on Java, Spring Boot, REST API design,
-        authentication, database modeling, and maintainable service architecture.
+        I build backend systems with Java and Spring Boot, with a strong focus on
+        secure REST APIs, database design, clean architecture, and production-ready services.
       </p>
       <p>
-        I enjoy turning practical product ideas into clear backend systems that are
-        secure, testable, and easy to extend as the product grows.
+        I care about code that is easy to read, safe to change, and clear enough
+        for real products to grow on top of it.
       </p>
     </td>
-    <td width="45%" valign="top">
-      <h3>Current Focus</h3>
+    <td width="40%" valign="top">
+      <h3>Focus</h3>
       <p>
-        <img src="https://img.shields.io/badge/Role-Java%20Backend%20Developer-2563eb?style=flat-square" alt="Java Backend Developer" />
-        <img src="https://img.shields.io/badge/Stack-Spring%20Boot-14b8a6?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
-        <img src="https://img.shields.io/badge/API-REST%20Design-f59e0b?style=flat-square" alt="REST API Design" />
-        <img src="https://img.shields.io/badge/Mindset-Clean%20Architecture-64748b?style=flat-square" alt="Clean Architecture" />
+        <img src="https://img.shields.io/badge/Java-Backend-2563eb?style=flat-square&logo=openjdk&logoColor=white" alt="Java Backend" />
+        <img src="https://img.shields.io/badge/Spring-Boot-14b8a6?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
+        <img src="https://img.shields.io/badge/REST-APIs-f59e0b?style=flat-square" alt="REST APIs" />
+        <img src="https://img.shields.io/badge/Database-Design-64748b?style=flat-square" alt="Database Design" />
+        <img src="https://img.shields.io/badge/API-Security-ef4444?style=flat-square" alt="API Security" />
+        <img src="https://img.shields.io/badge/Clean-Architecture-8b5cf6?style=flat-square" alt="Clean Architecture" />
       </p>
       <p>
-        Learning more about scalable service design, observability, deployment,
-        caching, and database performance.
+        Currently improving service design, caching, observability, deployment,
+        and database performance.
       </p>
     </td>
   </tr>
 </table>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=barkdock&theme=tokyonight" alt="GitHub profile summary" />
-</p>
 
 ## Core Skills
 
