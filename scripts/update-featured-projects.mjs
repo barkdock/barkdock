@@ -31,6 +31,48 @@ const featuredRepos = repos
   .sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at))
   .slice(0, 6);
 
+const getLastPageFromLink = (linkHeader) => {
+  if (!linkHeader) {
+    return null;
+  }
+
+  const match = linkHeader.match(/[?&]page=(\d+)>;\s*rel="last"/);
+  return match ? Number(match[1]) : null;
+};
+
+const getDefaultBranchCommitCount = async (repo) => {
+  const url = new URL(`https://api.github.com/repos/${owner}/${repo.name}/commits`);
+  url.searchParams.set("sha", repo.default_branch);
+  url.searchParams.set("per_page", "1");
+
+  const commitResponse = await fetch(url, { headers });
+
+  if (commitResponse.status === 409) {
+    return 0;
+  }
+
+  if (!commitResponse.ok) {
+    throw new Error(
+      `GitHub commits request failed for ${repo.name}: ${commitResponse.status} ${commitResponse.statusText}`,
+    );
+  }
+
+  const lastPage = getLastPageFromLink(commitResponse.headers.get("link"));
+  if (lastPage !== null) {
+    return lastPage;
+  }
+
+  const commits = await commitResponse.json();
+  return commits.length;
+};
+
+const reposWithCommitCounts = await Promise.all(
+  featuredRepos.map(async (repo) => ({
+    ...repo,
+    default_branch_commit_count: await getDefaultBranchCommitCount(repo),
+  })),
+);
+
 const escapeHtml = (value = "") =>
   String(value)
     .replace(/&/g, "&amp;")
@@ -56,11 +98,14 @@ const formatDate = (value) =>
     timeZone: "UTC",
   }).format(new Date(value));
 
+const pluralize = (count, singular, plural = `${singular}s`) => `${count} ${count === 1 ? singular : plural}`;
+
 const renderRepoCard = (repo) => {
   const description = repo.description || "Active project in progress.";
   const language = repo.language || "Mixed";
-  const stars = `${repo.stargazers_count} stars`;
-  const forks = `${repo.forks_count} forks`;
+  const stars = pluralize(repo.stargazers_count, "star");
+  const forks = pluralize(repo.forks_count, "fork");
+  const commits = pluralize(repo.default_branch_commit_count, "commit");
   const updated = formatDate(repo.updated_at);
 
   return [
@@ -71,6 +116,7 @@ const renderRepoCard = (repo) => {
     `    <img src="${badgeUrl("Tech", language, "2563eb")}" alt="${escapeHtml(language)}" />`,
     `    <img src="${badgeUrl("Stars", stars, "f59e0b")}" alt="${escapeHtml(stars)}" />`,
     `    <img src="${badgeUrl("Forks", forks, "14b8a6")}" alt="${escapeHtml(forks)}" />`,
+    `    <img src="${badgeUrl("Commits", commits, "8b5cf6")}" alt="${escapeHtml(commits)} on ${escapeHtml(repo.default_branch)}" />`,
     `    <img src="${badgeUrl("Updated", updated, "64748b")}" alt="Updated ${escapeHtml(updated)}" />`,
     "  </p>",
     "</td>",
@@ -91,7 +137,7 @@ const renderRepoGrid = (repos) => {
 };
 
 const content = featuredRepos.length
-  ? renderRepoGrid(featuredRepos)
+  ? renderRepoGrid(reposWithCommitCounts)
   : "_No public repositories found yet._";
 
 const readme = await readFile(readmePath, "utf8");

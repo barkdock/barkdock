@@ -101,6 +101,7 @@
     <img src="https://img.shields.io/badge/Tech-Java-2563eb?style=flat-square" alt="Java" />
     <img src="https://img.shields.io/badge/Stars-0%20stars-f59e0b?style=flat-square" alt="0 stars" />
     <img src="https://img.shields.io/badge/Forks-0%20forks-14b8a6?style=flat-square" alt="0 forks" />
+    <img src="https://img.shields.io/badge/Commits-1%20commit-8b5cf6?style=flat-square" alt="1 commit on main" />
     <img src="https://img.shields.io/badge/Updated-Jun%2026%2C%202026-64748b?style=flat-square" alt="Updated Jun 26, 2026" />
   </p>
 </td>
@@ -111,6 +112,7 @@
     <img src="https://img.shields.io/badge/Tech-JavaScript-2563eb?style=flat-square" alt="JavaScript" />
     <img src="https://img.shields.io/badge/Stars-0%20stars-f59e0b?style=flat-square" alt="0 stars" />
     <img src="https://img.shields.io/badge/Forks-0%20forks-14b8a6?style=flat-square" alt="0 forks" />
+    <img src="https://img.shields.io/badge/Commits-3%20commits-8b5cf6?style=flat-square" alt="3 commits on main" />
     <img src="https://img.shields.io/badge/Updated-Jun%2025%2C%202026-64748b?style=flat-square" alt="Updated Jun 25, 2026" />
   </p>
 </td>
@@ -123,6 +125,7 @@
     <img src="https://img.shields.io/badge/Tech-Python-2563eb?style=flat-square" alt="Python" />
     <img src="https://img.shields.io/badge/Stars-0%20stars-f59e0b?style=flat-square" alt="0 stars" />
     <img src="https://img.shields.io/badge/Forks-0%20forks-14b8a6?style=flat-square" alt="0 forks" />
+    <img src="https://img.shields.io/badge/Commits-1%20commit-8b5cf6?style=flat-square" alt="1 commit on dev" />
     <img src="https://img.shields.io/badge/Updated-Jun%2025%2C%202026-64748b?style=flat-square" alt="Updated Jun 25, 2026" />
   </p>
 </td>
@@ -133,6 +136,7 @@
     <img src="https://img.shields.io/badge/Tech-Java-2563eb?style=flat-square" alt="Java" />
     <img src="https://img.shields.io/badge/Stars-0%20stars-f59e0b?style=flat-square" alt="0 stars" />
     <img src="https://img.shields.io/badge/Forks-0%20forks-14b8a6?style=flat-square" alt="0 forks" />
+    <img src="https://img.shields.io/badge/Commits-1%20commit-8b5cf6?style=flat-square" alt="1 commit on main" />
     <img src="https://img.shields.io/badge/Updated-Jun%2025%2C%202026-64748b?style=flat-square" alt="Updated Jun 25, 2026" />
   </p>
 </td>
