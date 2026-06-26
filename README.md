@@ -171,14 +171,3 @@
     <img alt="GitHub contribution graph" src="https://raw.githubusercontent.com/barkdock/barkdock/output/github-contribution-grid-snake.svg">
   </picture>
 </div>
-
----
-
-<p align="center">
-  <strong>Thanks for visiting.</strong><br />
-  Always learning, always building, always improving.
-</p>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:0F172A,45:2563EB,100:14B8A6" width="100%" alt="Footer" />
-</div>
