@@ -31,18 +31,42 @@
 
 ## About Me
 
-```java
-public class SonPhamVan {
-    String role = "Java Backend Developer";
-    String focus = "Spring Boot, REST APIs, databases, clean architecture";
-    String mindset = "Build clearly, learn continuously, ship responsibly";
-}
-```
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=720&lines=Java+Backend+Developer;Spring+Boot+%7C+REST+APIs+%7C+Clean+Architecture;Building+reliable+systems+with+clear+code" alt="Typing introduction" />
+</div>
 
-- Backend-oriented developer with a strong foundation in Java and Spring Boot.
-- Interested in scalable service design, API security, performance, and observability.
-- Building practical systems such as learning management and e-commerce platforms.
-- Open to backend collaboration, code review, and system design discussions.
+<table>
+  <tr>
+    <td width="55%" valign="top">
+      <h3>Profile</h3>
+      <p>
+        Backend-oriented developer focused on Java, Spring Boot, REST API design,
+        authentication, database modeling, and maintainable service architecture.
+      </p>
+      <p>
+        I enjoy turning practical product ideas into clear backend systems that are
+        secure, testable, and easy to extend as the product grows.
+      </p>
+    </td>
+    <td width="45%" valign="top">
+      <h3>Current Focus</h3>
+      <p>
+        <img src="https://img.shields.io/badge/Role-Java%20Backend%20Developer-2563eb?style=flat-square" alt="Java Backend Developer" />
+        <img src="https://img.shields.io/badge/Stack-Spring%20Boot-14b8a6?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
+        <img src="https://img.shields.io/badge/API-REST%20Design-f59e0b?style=flat-square" alt="REST API Design" />
+        <img src="https://img.shields.io/badge/Mindset-Clean%20Architecture-64748b?style=flat-square" alt="Clean Architecture" />
+      </p>
+      <p>
+        Learning more about scalable service design, observability, deployment,
+        caching, and database performance.
+      </p>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=barkdock&theme=tokyonight" alt="GitHub profile summary" />
+</p>
 
 ## Core Skills
 
