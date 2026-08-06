@@ -95,6 +95,17 @@
 <table>
 <tr>
 <td width="50%" valign="top">
+  <h3><a href="https://github.com/barkdock/vibe-bypass">vibe-bypass</a></h3>
+  <p>Active project in progress.</p>
+  <p>
+    <img src="https://img.shields.io/badge/Tech-TypeScript-2563eb?style=flat-square" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/Stars-0%20stars-f59e0b?style=flat-square" alt="0 stars" />
+    <img src="https://img.shields.io/badge/Forks-0%20forks-14b8a6?style=flat-square" alt="0 forks" />
+    <img src="https://img.shields.io/badge/Commits-2%20commits-8b5cf6?style=flat-square" alt="2 commits on main" />
+    <img src="https://img.shields.io/badge/Updated-Aug%2006%2C%202026-64748b?style=flat-square" alt="Updated Aug 06, 2026" />
+  </p>
+</td>
+<td width="50%" valign="top">
   <h3><a href="https://github.com/barkdock/core-lms">core-lms</a></h3>
   <p>Active project in progress.</p>
   <p>
@@ -105,6 +116,8 @@
     <img src="https://img.shields.io/badge/Updated-Jun%2026%2C%202026-64748b?style=flat-square" alt="Updated Jun 26, 2026" />
   </p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
   <h3><a href="https://github.com/barkdock/mini-chat">mini-chat</a></h3>
   <p>Active project in progress.</p>
@@ -116,8 +129,6 @@
     <img src="https://img.shields.io/badge/Updated-Jun%2026%2C%202026-64748b?style=flat-square" alt="Updated Jun 26, 2026" />
   </p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
   <h3><a href="https://github.com/barkdock/core-lms-fe">core-lms-fe</a></h3>
   <p>Active project in progress.</p>
@@ -129,6 +140,8 @@
     <img src="https://img.shields.io/badge/Updated-Jun%2025%2C%202026-64748b?style=flat-square" alt="Updated Jun 25, 2026" />
   </p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
   <h3><a href="https://github.com/barkdock/ai-service-rmb">ai-service-rmb</a></h3>
   <p>Active project in progress.</p>
@@ -140,6 +153,7 @@
     <img src="https://img.shields.io/badge/Updated-Jun%2025%2C%202026-64748b?style=flat-square" alt="Updated Jun 25, 2026" />
   </p>
 </td>
+<td width="50%" valign="top"></td>
 </tr>
 </table>
 <!-- FEATURED-PROJECTS:END -->
