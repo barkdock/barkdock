@@ -101,7 +101,7 @@
     <img src="https://img.shields.io/badge/Tech-TypeScript-2563eb?style=flat-square" alt="TypeScript" />
     <img src="https://img.shields.io/badge/Stars-0%20stars-f59e0b?style=flat-square" alt="0 stars" />
     <img src="https://img.shields.io/badge/Forks-0%20forks-14b8a6?style=flat-square" alt="0 forks" />
-    <img src="https://img.shields.io/badge/Commits-2%20commits-8b5cf6?style=flat-square" alt="2 commits on main" />
+    <img src="https://img.shields.io/badge/Commits-5%20commits-8b5cf6?style=flat-square" alt="5 commits on main" />
     <img src="https://img.shields.io/badge/Updated-Aug%2006%2C%202026-64748b?style=flat-square" alt="Updated Aug 06, 2026" />
   </p>
 </td>
