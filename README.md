@@ -95,7 +95,7 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-  <h3><a href="https://github.com/barkdock/BunVibe">BunVibe</a></h3>
+  <h3><a href="https://github.com/ryanowlops/BunVibe">BunVibe</a></h3>
   <p>Active project in progress.</p>
   <p>
     <img src="https://img.shields.io/badge/Tech-TypeScript-2563eb?style=flat-square" alt="TypeScript" />
@@ -106,7 +106,7 @@
   </p>
 </td>
 <td width="50%" valign="top">
-  <h3><a href="https://github.com/barkdock/faker">faker</a></h3>
+  <h3><a href="https://github.com/ryanowlops/faker">faker</a></h3>
   <p>Active project in progress.</p>
   <p>
     <img src="https://img.shields.io/badge/Tech-TypeScript-2563eb?style=flat-square" alt="TypeScript" />
@@ -119,7 +119,7 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
-  <h3><a href="https://github.com/barkdock/vibe-bypass">vibe-bypass</a></h3>
+  <h3><a href="https://github.com/ryanowlops/vibe-bypass">vibe-bypass</a></h3>
   <p>Active project in progress.</p>
   <p>
     <img src="https://img.shields.io/badge/Tech-TypeScript-2563eb?style=flat-square" alt="TypeScript" />
@@ -130,7 +130,7 @@
   </p>
 </td>
 <td width="50%" valign="top">
-  <h3><a href="https://github.com/barkdock/core-lms">core-lms</a></h3>
+  <h3><a href="https://github.com/ryanowlops/core-lms">core-lms</a></h3>
   <p>Active project in progress.</p>
   <p>
     <img src="https://img.shields.io/badge/Tech-Java-2563eb?style=flat-square" alt="Java" />
@@ -143,7 +143,7 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
-  <h3><a href="https://github.com/barkdock/mini-chat">mini-chat</a></h3>
+  <h3><a href="https://github.com/ryanowlops/mini-chat">mini-chat</a></h3>
   <p>Active project in progress.</p>
   <p>
     <img src="https://img.shields.io/badge/Tech-Java-2563eb?style=flat-square" alt="Java" />
@@ -154,7 +154,7 @@
   </p>
 </td>
 <td width="50%" valign="top">
-  <h3><a href="https://github.com/barkdock/core-lms-fe">core-lms-fe</a></h3>
+  <h3><a href="https://github.com/ryanowlops/core-lms-fe">core-lms-fe</a></h3>
   <p>Active project in progress.</p>
   <p>
     <img src="https://img.shields.io/badge/Tech-JavaScript-2563eb?style=flat-square" alt="JavaScript" />
